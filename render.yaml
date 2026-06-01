@@ -17,4 +17,3 @@ databases:
   - name: inventory-db
     plan: free
     databaseName: inventory_db
-    user: postgres
