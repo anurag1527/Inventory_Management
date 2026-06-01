@@ -11,10 +11,14 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-SQLALCHEMY_DATABASE_URL = os.getenv(
+db_url = os.getenv(
     "DATABASE_URL",
     "postgresql://postgres:postgrespassword@db:5432/inventory_db"
 )
+if db_url and db_url.startswith("postgres://"):
+    db_url = db_url.replace("postgres://", "postgresql://", 1)
+
+SQLALCHEMY_DATABASE_URL = db_url
 
 def create_engine_with_retry(url, max_retries=10, delay=3):
     """Try to connect to the database with retries."""
