@@ -4,13 +4,13 @@ A production-ready Full Stack Inventory and Order Management System built with *
 
 ## 🚀 Live Demo
 
-- **Frontend (Vercel):** [Insert Vercel Link Here]
-- **Backend API (Render):** [Insert Render Link Here]
+- **Frontend (Vercel):** https://inventory-management-x5ta-3399wlquk-anurag1527s-projects.vercel.app/login 
+- **Backend API (Render):**  https://inventory-management-backend-latest-68fk.onrender.com
 
 ## 🔐 Admin Credentials
 
 To access the system, use the following credentials:
-- **Email:** `anurag@example.com`
+- **Email:** `anurag@gmail.com`
 - **Password:** `12345`
 
 ---
