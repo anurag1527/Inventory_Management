@@ -10,7 +10,7 @@ A production-ready Full Stack Inventory and Order Management System built with *
 ## 🔐 Admin Credentials
 
 To access the system, use the following credentials:
-- **Email:** `agraj@gmail.com`
+- **Email:** `anurag@example.com`
 - **Password:** `12345`
 
 ---
